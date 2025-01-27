@@ -73,7 +73,6 @@ def generate_plot_tool(query, df):
         "Your task is to generate clear and insightful plots based on the user query. "
         "The solution should strictly use Plotly or Plotly Express and no other plotting library. "
         "You should based your answer on the data provide by the user."
-        "You should adapt the plot based on the query of the user."
         "Return the Python code in a fenced code block: ```python <code>```. "
         "No other plotting library allowed."
     )
